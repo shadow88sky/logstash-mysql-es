@@ -1,5 +1,5 @@
 # 简介
-此项目是用logstash来将Mysql的单表数据同步到ES中的,  
+此项目是用logstash来将Mysql的单表或者多表数据同步到ES中的,  
 mysql.conf的demo是全增量同步，即根据id自增长为记录列。  
 每次同步完logstash都会记录该id，下次同步从该id开始。 也可自己修改。
 
